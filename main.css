@@ -1,0 +1,25 @@
+:root{
+	--grid-template-var: repeat(16, 1fr) / repeat(16, 1fr);
+	--grid-background-color: rgb(10,10,10);
+}
+
+#container{
+	width: 350px;
+	height: 350px;
+	display: grid;
+	grid-template: var(--grid-template-var);
+	background-color: var(--grid-background-color);
+	margin: 20px auto 0px auto;
+}
+
+
+#heading{
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+
+h1 {
+	text-align: center;
+}
